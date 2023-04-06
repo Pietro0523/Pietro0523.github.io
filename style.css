@@ -1,0 +1,83 @@
+/* Stili per il corpo della pagina */
+body {
+  background-color: #ffdab9;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #003366;
+  margin: 0;
+  padding: 0;
+}
+img {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+
+/* Stili per l'intestazione della pagina */
+h1 {
+  background-color: #ff6a6a;
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 2px 2px 0 #000;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 5px solid #fff;
+}
+
+/* Stili per il contenitore dei pulsanti */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+/* Stili per i pulsanti */
+button {
+  font-size: 24px;
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  margin: 20px;
+}
+
+/* Stili per il pulsante HOME */
+button.primary {
+  background-color: #ff6a6a;
+  color: #fff;
+  text-shadow: 2px 2px 0 #000;
+}
+
+button.primary:hover {
+  background-color: #ff4848;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Stili per il pulsante CONTATTACI */
+button.secondary {
+  background-color: #f9dc5c;
+  color: #003366;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+button.secondary:hover {
+  background-color: #f4d03f;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Stili per il pulsante CHI SIAMO */
+button.warning {
+  background-color: #008080;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
+
+button.warning:hover {
+  background-color: #006666;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}

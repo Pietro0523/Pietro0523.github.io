@@ -80,7 +80,7 @@ button.warning:hover {
   background-color: #006666;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   /* Ridimensiona l'immagine */
   img.pis {
     width: 100%;
